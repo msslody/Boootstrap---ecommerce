@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+font-family: "Poppins", sans-serif;
+}
+
+/* navbar styling*/
+.navbar {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+position: sticky !important;
+top: 0 !important;
+z-index: 100;
+}
+.navbar-brand {
+font-weight: bold !important;
+font-size: 1.5rem !important;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+  color: #7983DB;
+  font-weight: bold;
+}
+
+
+
+
+
+/* Hero Section Styling */
+.hero {
+    background: linear-gradient(135deg, #bb72d8, #169cdf);
+    color: #fff;
+    text-align: center;
+    padding: 6rem 2rem;
+    border-radius: 10px;
+  }
+
+  .hero h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .hero .btn {
+    background-color: #151b84;
+    color: white;
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .hero .btn:hover {
+    background-color: #b04fd6;
+    transform: scale(1.05);
+  }
+
+  /* Categories Styling */
+  .categories img {
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+    height: 250px;
+    cursor: pointer;
+  }
+
+  .categories img:hover {
+    transform: scale(1.05);
+  }
+
+  .categories h3 {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 50px;
+  }
+
+ 
+
+
+   /* Shop Page Layout */
+   .shop-page {
+    padding: 2rem 0;
+  }
+
+  .filter-bar {
+
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+  }
+
+  .filter-bar input,
+  .filter-bar select {
+    border-radius: 20px;
+  }
+
+  /* Product Cards */
+  .product-card {
+    border: none;
+    background-color: #ffffff;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .product-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .product-card img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 250px;
+    object-fit: cover;
+  }
+
+  .product-card .card-body {
+    padding: 1rem 1.5rem;
+  }
+
+  .product-card .price {
+    font-weight: bold;
+    color: #ff6f61;
+  }
+
+  .product-card .btn , .button-submit{
+    border-radius: 25px;
+    background-color: #151B84;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+    padding: 10px 15px;
+    border: none;
+  }
+
+  .product-card .btn:hover, .button-submit:hover{
+    background-color: #3096DE;
+    border: none;
+  }
+
+
+
+
+
+  .cart-page {
+    padding: 3rem 0;
+  }
+
+  .cart-item img {
+    border-radius: 10px;
+    max-width: 100px;
+  }
+
+  .cart-item {
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 0;
+  }
+
+  .cart-summary {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 10px;
+  }
+
+  .cart-summary h4 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .cart-summary .btn {
+    background-color:  #007bff;
+    color: white;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .cart-summary .btn:hover {
+    background-color:  #0056b3;
+  }
+
+
+  
+
+
+  .about-header, .contact-header {
+    background: linear-gradient(135deg, #bb72d8, #169cdf);
+    color: #fff;
+  }
+
+  .who-we-are img{
+    width: 600px;
+    height: 450px;
+  }
+  .who-we-are p{
+    font-size: 17px;
+    line-height: 1.7;
+  }
+  
+.team img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.get-in-touch p{
+    padding-right: 150px;
+}
+
+
+  .footer {
+    background-color: #414141;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer ul li a,  .footer .social-icons i,   .footer p{
+    color: rgba(255, 255, 255, 0.71);
+  }
+  .footer ul li a:hover, .footer .social-icons i:hover{
+    color: #7983DB;
+  }
+  
+
+/* Checkmark Animation */
+.checkmark {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+
+.checkmark-circle {
+  fill: none;
+  stroke: #28a745;
+  stroke-width: 4;
+  stroke-dasharray: 300;
+  stroke-dashoffset: 300;
+  animation: strokeAnimation 1s ease-out forwards;
+}
+
+.checkmark-check {
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  animation: strokeAnimation 0.5s 1s ease-out forwards;
+}
+
+@keyframes strokeAnimation {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* Small */
+@media screen and (max-width: 768px) {
+  .who-we-are img{
+    width: 500px !important;
+    height: 250px !important;
+    margin-bottom: 20px;
+   
+  }
+  .who-we-are{
+    padding: 30px !important;
+  }
+    
+}
+
+/* medium */
+@media screen and (max-width: 992px) {
+  .who-we-are img{
+    width: 700px;
+    height: 400px;
+    margin-bottom: 20px;
+   
+   
+  }
+}
+
+/* large */
+@media screen and (max-width: 1200px){
+  .who-we-are img{
+    height: 400px;
+  
+  }
+}

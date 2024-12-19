@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Symphony Shop</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+</head>
+<body>
+ <!-- Navbar -->
+ <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container">
+      <a class="navbar-brand" href="#">Symphony Shop</a>
+      <!-- Mobile Toggle Button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <!-- Center the navbar links -->
+        <ul class="navbar-nav mx-auto d-flex gap-lg-3">
+          <li class="nav-item"><a class="nav-link " href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link " href="shop.html">Shop</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+        </ul>
+        <div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="cart.html">
+                <i class="fa-solid fa-cart-shopping" style="color: #0a5c8f; font-size:20px;"></i> <span id="cartCount" class="badge bg-danger ">0</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+<header class="contact-header text-center py-5">
+    <div class="container">
+        <h1>Contact Us</h1>
+        <p class="lead">We'd love to hear from you! Get in touch with us.</p>
+    </div>
+</header>
+
+<section class="container my-5">
+    <div class="row">
+        <div class="get-in-touch col-md-6">
+            <h2>Get in Touch</h2>
+            <p>If you have any questions, feedback, or just want to say hello, feel free to contact us using the form below. We’re here to help!</p>
+            <ul class="list-unstyled">
+                <li><strong>Address:</strong> RUPP, Toul Kork, Cambodia</li>
+                <li><strong>Phone:</strong> +855 963 656 212</li>
+                <li><strong>Email:</strong> sokelodie22@gmail.com</li>
+            </ul>
+        </div>
+
+        <div class="col-md-6">
+            <h2>Contact Form</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+                </div>
+                <button type="submit" class="button-submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+  <!-- Footer -->
+  <footer class="footer text-white pt-5 pb-3 mt-5">
+    <div class="container">
+        <div class="row">
+            <!-- Footer Column: Company Info -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <h5 class="text-uppercase mb-3">Symphony Store</h5>
+                  <p>Royal University of Phnom Penh, Toul Kork, Cambodia</p>
+                  <p>Email: sokelodie22@gmail.com</p>
+                  <p>Phone: +855 963 656 212</p>
+            </div>
+            
+            <!-- Footer Column: Quick Links -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <h5 class="text-uppercase mb-3">Quick Links</h5>
+                <ul class="list-unstyled d-flex flex-column gap-1">
+                    <li><a href="index.html" class=" text-decoration-none">Home</a></li>
+                    <li><a href="shop.html" class=" text-decoration-none">Shop</a></li>
+                    <li><a href="about.html" class="text-decoration-none">About</a></li>
+                    <li><a href="contact.html" class="text-decoration-none">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Footer Column: Social Media -->
+            <div class="col-lg-4 col-md-12 mb-4">
+                <h5 class="text-uppercase mb-3">Follow Us</h5>
+                <div class="social-icons">
+                    <a href="https://web.facebook.com/profile.php?id=100072938845145" target="_blank" class="me-3"><i class="fab fa-facebook fa-2x"></i></a>
+                    <a href="https://www.instagram.com/e.lodiee_/" target="_blank" class=" me-3"><i class="fab fa-instagram fa-2x"></i></a>
+                    <a href="https://t.me/msslody" target="_blank" class=" me-3"><i class="fab fa-telegram fa-2x"></i></a>
+                    <a href="https://github.com/msslody"target="_blank" class=" me-3"><i class="fab fa-github fa-2x"></i></a>
+                    <a href="https://www.linkedin.com/in/elodie-sok-280533333"target="_blank" class=" me-3"><i class="fab fa-linkedin fa-2x"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="text-center">
+            <small>&copy; 2024 Sok Elodie. All Rights Reserved. <i class="fa-solid fa-heart" style="color: #f33939;"></i></small>
+        </div>
+    </div>
+</footer> 
+  
+  <!-- Add this at the end of the body on every page -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="JS/cart.js"></script>
+
+</body>
+</html>
